@@ -20,7 +20,7 @@ window.onload = function () {
 //                  cityName.innerHTML = res.city.name;
 
                   for (i = 0; i < res.list.length; i++) {
-                      newCard(res[i]);
+                      newCard(res.list[i]);
                     //    cityInfo.innerHTML = res.list[0].dt_txt;
                     //    temperature.innerHTML = Math.round(res.list[0].main.temp - 273.15);
                     //    percipitation.innerHTML = res.list[0].main.humidity + '% humidity';
